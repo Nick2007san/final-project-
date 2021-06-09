@@ -26,6 +26,24 @@ let El_protagonista = sprites.create(img`
     ....f11ff11f....
     ....ffffffff....
     `, SpriteKind.Player)
+let mySprite = sprites.create(img`
+    . . . . . . . e . . . . . . . . 
+    . . . . . . e f e . . . . . . . 
+    . . . . . e f f f e . . . . . . 
+    . . . . e f f f f f e . . . . . 
+    . . . e e e e e e e e e . . . . 
+    . . . . d b f d f b d . . e e . 
+    . . . . 1 1 d d d 1 1 . . e e . 
+    . . . . . 1 1 1 1 1 . . . . e . 
+    . . . . 8 8 1 1 1 8 8 . . . e . 
+    . . . 8 8 8 1 1 1 8 8 8 . . e . 
+    . . . 8 8 8 8 8 8 8 . 8 8 . e . 
+    . . . 8 . 8 f . f 8 . . 8 8 d . 
+    . . . d . 8 f . f 8 . . . . e . 
+    . . . . . 8 f . f 8 . . . . e . 
+    . . . . . 8 f . f 8 8 . . . e . 
+    . . . . . 1 1 . 1 1 . . . . e . 
+    `, SpriteKind.Player)
 let Comida = sprites.create(img`
     . . . . c c c b b b b b . . . . 
     . . c c b 4 4 4 4 4 4 b b b . . 
